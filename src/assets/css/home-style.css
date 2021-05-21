@@ -1,0 +1,253 @@
+﻿@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Rubik Light Italic'), local('Rubik-LightItalic'), url(https://fonts.gstatic.com/s/rubik/v9/iJWBBXyIfDnIV7nEldWYwWL-7A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Rubik Italic'), local('Rubik-Italic'), url(https://fonts.gstatic.com/s/rubik/v9/iJWEBXyIfDnIV7nEnX660Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Rubik Medium Italic'), local('Rubik-MediumItalic'), url(https://fonts.gstatic.com/s/rubik/v9/iJWBBXyIfDnIV7nElY2ZwWL-7A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Rubik Bold Italic'), local('Rubik-BoldItalic'), url(https://fonts.gstatic.com/s/rubik/v9/iJWBBXyIfDnIV7nElcWfwWL-7A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Rubik Black Italic'), local('Rubik-BlackItalic'), url(https://fonts.gstatic.com/s/rubik/v9/iJWBBXyIfDnIV7nElf2dwWL-7A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Rubik Light'), local('Rubik-Light'), url(https://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7Fqj2md8WU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Rubik'), local('Rubik-Regular'), url(https://fonts.gstatic.com/s/rubik/v9/iJWKBXyIfDnIV7nBrXk.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Rubik Medium'), local('Rubik-Medium'), url(https://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7Eyjmmd8WU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Rubik Bold'), local('Rubik-Bold'), url(https://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7F6iGmd8WU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Rubik Black'), local('Rubik-Black'), url(https://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7FCimmd8WU.ttf) format('truetype');
+}
+.banner {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 69vh;
+  background-position: left;
+  position: relative;
+  background-image: url('../img/banner2.jpg');
+  background-repeat: no-repeat;
+}
+.conteudo {
+  bottom: 18vh;
+  background: #fff;
+  padding: 12px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 1px -5px 10px -9px;
+  height: 18vh;
+}
+.conteudo .card .card-body {
+  font-family: 'Rubik', sans-serif;
+}
+.conteudo .card .card-body img {
+  max-width: 100%;
+}
+.conteudo .card .card-body .card-title {
+  margin-bottom: 0.75rem;
+  font-size: 16px;
+  border-bottom: 1px solid #929292;
+}
+.conteudo .card .card-body .card-text {
+  color: #929292;
+  font-size: 11px;
+  font-weight: 500;
+}
+.conteudo .quem-somos {
+  margin-top: 20px;
+}
+.conteudo .quem-somos img {
+  width: 100%;
+}
+.conteudo .quem-somos .text-principal {
+  color: #838283;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.conteudo .quem-somos .title-quem-somos {
+  color: #2b8dc3;
+  font-size: 18px;
+}
+.titulos {
+  color: #2b8dc3;
+  font-family: 'Rubik', sans-serif;
+  font-size: 41px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+@media (max-width: 768px) {
+  html,
+  body {
+    font-family: 'Rubik', sans-serif;
+  }
+}
+.card-title.servicos {
+  font-size: 14px;
+  color: #83c1d7;
+}
+.contato .title-contato {
+  color: #2b8dc3;
+}
+.contato input,
+.contato textarea {
+  border-color: #2b8dc3 !important;
+}
+.contato .btn {
+  float: right;
+  color: white;
+  background: #6dcff6;
+  border-color: #2b8dc3 !important;
+  border-radius: 25px;
+  padding: 3px 25px;
+  font-weight: 500;
+}
+.servicos .card-img-top {
+  height: 180px;
+}
+.text-banner {
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  margin-top: -0.5em;
+  width: 60%;
+  line-height: 1em;
+  margin-left: -30%;
+  font-weight: 600;
+  font-size: 2.3em;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-style: italic;
+  font-family: 'Rubik', sans-serif;
+  text-shadow: 2px -1px 3px #2b2929;
+}
+.carousel-inner,
+.carousel,
+.carousel-item,
+.container-slide,
+.fill {
+  height: 100%;
+  min-height: 400px;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-position: top !important;
+}
+.slide-wrapper {
+  display: inline;
+}
+.slide-wrapper .container-slide {
+  padding: 0;
+}
+/*------------------------------ vertical bootstrap slider----------------------------*/
+.carousel-inner > .carousel-item.carousel-item-next,
+.carousel-inner > .carousel-item.active.carousel-item-right {
+  transform: translate3d(0, 100%, 0);
+  -webkit-transform: translate3d(0, 100%, 0);
+  -ms-transform: translate3d(0, 100%, 0);
+  -moz-transform: translate3d(0, 100%, 0);
+  -o-transform: translate3d(0, 100%, 0);
+  top: 0;
+}
+.carousel-inner > .carousel-item.carousel-item-prev,
+.carousel-inner > .carousel-item.active.carousel-item-left {
+  transform: translate3d(0, -100%, 0);
+  -webkit-transform: translate3d(0, -100%, 0);
+  -moz-transform: translate3d(0, -100%, 0);
+  -ms-transform: translate3d(0, -100%, 0);
+  -o-transform: translate3d(0, -100%, 0);
+  top: 0;
+}
+.carousel-inner > .carousel-item.next.carousel-item-left,
+.carousel-inner > .carousel-item.carousel-item-prev.carousel-item-right,
+.carousel-inner > .carousel-item.active {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  top: 0;
+}
+/*------------------------------- vertical carousel indicators ------------------------------*/
+.carousel-indicators {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 20px;
+  right: 130px;
+  left: auto;
+  width: auto;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.carousel-indicators li {
+  display: block;
+  margin-bottom: 5px;
+  border: none;
+  background: #DFF1FA;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.carousel-indicators li.active {
+  margin-bottom: 5px;
+  background: #A3D2EA;
+}

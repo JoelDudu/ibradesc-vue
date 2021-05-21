@@ -1,6 +1,13 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
+import QuemSomos from "../views/QuemSomos.vue";
+import Cursos from "../views/Cursos.vue";
+import Contatos from "../views/Contatos.vue";
+import ProEduca from "../views/ProEduca.vue";
+import OutrosServicos from "../views/OutrosServicos.vue";
+import Noticias from "../views/Noticias.vue";
+
 
 Vue.use(VueRouter);
 
@@ -11,13 +18,34 @@ const routes = [
     component: Home,
   },
   {
-    path: "/about",
-    name: "About",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue"),
+    path: "/quemsomos",
+    name: "QuemSomos",
+    component: QuemSomos,
+  },
+  {
+    path: "/cursos",
+    name: "Cursos",
+    component: Cursos
+  },
+  {
+    path: "/contatos",
+    name: "Contatos",
+    component: Contatos,
+  },
+  {
+    path: "/proeduca",
+    name: "ProEduca",
+    component: ProEduca,
+  },
+  {
+    path: "/outrosservicos",
+    name: "OutrosServicos",
+    component: OutrosServicos,
+  },
+  {
+    path: "/noticias",
+    name: "Noticias",
+    component: Noticias,
   },
 ];
 
